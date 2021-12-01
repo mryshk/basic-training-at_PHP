@@ -19,11 +19,18 @@
   print $msg;
   ?><br>
   <?php
-  const TAX = 1.1;
-  $price = 1000;
-  $sum = $price * TAX;
-  print $sum;
+  define("TAX", 1.6);
+  $price = 2000;
+  print TAX * $price;
   ?>
+  <?= __FILE__ ?><br>
+  <?= __LINE__ ?><br>
+  <?php
+  $title = 'サーバーサイド技術の学び舎';
+  $data1 = "サポートサイト\n「{$title}」へ";
+  print $data1;
+  ?>
+
 </body>
 
 </html>
