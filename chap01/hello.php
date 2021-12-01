@@ -39,6 +39,10 @@
   EOD;
   print $msg;
   ?>
+  <?php
+  $nl1;
+  $nl2 = null;
+  ?>
 
 </body>
 
