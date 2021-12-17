@@ -8,6 +8,14 @@
   print $msg;
   ?><br>
   <!-- 定数 -->
+  <div style="margin:10px;">
+    <?php
+    const PRICE = 1000;
+    $tax = 1.08;
+    $sum = PRICE * $tax;
+    print $sum;
+    ?>
+  </div>
   <?php
   define("TAX", 1.6);
   $price = 2000;
@@ -41,7 +49,7 @@
   ?><br>
   <!-- array型 -->
   <?php
-  $data = ['ok','yes','No'];
+  $data = ['ok', 'yes', 'No'];
   print $data[0];
   ?>
   <?php
