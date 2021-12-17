@@ -41,6 +41,10 @@
   ?><br>
   <!-- array型 -->
   <?php
+  $data = ['ok','yes','No'];
+  print $data[0];
+  ?>
+  <?php
   $data = ['山田', '鈴木', '田中'];
   print $data[2];
   ?>
