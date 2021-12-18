@@ -128,3 +128,17 @@ $member1 =[
 ];
 print $member1[1]["name"];
 ?>
+<!-- 配列のインデックスの割り振り -->
+<?php
+$data3 =[
+  1 => "yamada",
+  2 => "suzuki",
+  8 => "satou"
+  ];
+  print_r($data3);
+?><br>
+<!-- 割り振りをしない場合はインデックス番号が０からになる -->
+<?php
+$data4 =["yamada","suzuki","satou"];
+print_r($data4);
+?>
