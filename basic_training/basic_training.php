@@ -141,4 +141,13 @@ $data3 =[
 <?php
 $data4 =["yamada","suzuki","satou"];
 print_r($data4);
+?><br>
+<!-- 配列の追加 -->
+<?php
+$data4 = [
+  "name"=>"Yamada",
+  "age"=>"24",
+  "Suzuki"
+];
+print_r($data4["name"])
 ?>
