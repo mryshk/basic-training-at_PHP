@@ -160,4 +160,26 @@ print $y = ++$x;
 <?php
 $x = 3;
 print $z = --$x;
+?><br>
+<!-- インクリメント加算 (後値)-->
+<?php
+$x = 4;
+$y = $x++;
+print $x;
+print $y;
+?>
+<!-- 配列加算 -->
+<!-- keyが重複していない要素のみ加算される -->
+<!-- 下のコードではkeyのnameが重複しているため加算されていない -->
+<?php
+$assoc1 = [
+  "name"=>"yamada",
+  "age"=>"35"
+];
+$assoc2 =[
+  "name"=>"suzuki",
+  "sex"=>"man",
+];
+$result = $assoc1 + $assoc2;
+print_r($result);
 ?>
