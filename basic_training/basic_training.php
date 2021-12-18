@@ -156,3 +156,8 @@ print_r($data4["name"])
 $x = 4;
 print $y = ++$x;
 ?>
+<!-- デクリメント減算-->
+<?php
+$x = 3;
+print $z = --$x;
+?>
