@@ -183,3 +183,11 @@ $assoc2 =[
 $result = $assoc1 + $assoc2;
 print_r($result);
 ?>
+<!-- 通常配列はkey=indexが重複するため基本加算されない -->
+<!-- $a1にkey=index[3]が存在しなかっため$a2のindex[3]が加算された -->
+<?php
+$a1 = ["yamada","suzuki","sato"];
+$a2 = ["24","35","45","34"];
+$result = $a1 + $a2;
+print_r($result);
+?>
