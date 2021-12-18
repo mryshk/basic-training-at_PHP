@@ -106,4 +106,25 @@ $data1=[
   ["Z-1","Z-2","Z-3"],
 ];
 print $data1[1][2];
+?><br>
+<!-- 2次元配列 dimention -->
+<?php
+$member1 =[
+  [
+    "name"=>"Yamada",
+    "age"=>"35",
+    "sex"=>"man"
+  ],
+  [
+    "name"=>"suzuki",
+    "age"=>"30",
+    "sex"=>"man"
+  ],
+  [
+    "name"=>"satou",
+    "age"=>"24",
+    "sex"=>"women"
+  ],
+];
+print $member1[1]["name"];
 ?>
