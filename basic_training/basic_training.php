@@ -199,3 +199,11 @@ $x = 5;
 print $x;
 print $y;
 ?>
+<!-- 参照 -->
+<?php
+$x=1;
+$y=&$x;
+$x=5;
+print $y;
+print $x;
+?>
