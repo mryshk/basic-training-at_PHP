@@ -9,6 +9,12 @@ print $b;
 <!-- 指定したインデックスに値を代入する -->
 <?php
 $data = [1,2,3,4,5];
-[1 => $a,3=>$b];
+[1 => $a,3=>$b]=$data;
 print $b;
+?>
+<!-- 連想配列の１部分の取り出し -->
+<?php
+$map = ['title'=>"独習","price"=>3000];
+["title"=>$title,"price"=>$price ]=$map;
+print $title;
 ?>
