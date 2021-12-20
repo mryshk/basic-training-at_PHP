@@ -18,3 +18,11 @@ $map = ['title'=>"独習","price"=>3000];
 ["title"=>$title,"price"=>$price ]=$map;
 print $title;
 ?>
+<!-- 変数のスワッピング -->
+<?php
+$x = 15;
+$y = 38;
+[$y,$x] = [$x,$y];
+print $x;
+print $y;
+?>
