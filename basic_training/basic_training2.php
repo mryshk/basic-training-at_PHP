@@ -37,3 +37,7 @@ print_r($c);
 print_r($z1);
 print_r($z2);
 ?>
+<!-- 比較演算 -->
+<?php
+var_dump("3.14"==3.14000);
+?>
