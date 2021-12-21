@@ -25,4 +25,15 @@ $y = 38;
 [$y,$x] = [$x,$y];
 print $x;
 print $y;
+?><br>
+<!-- 入れ子の配列の分解も可能 -->
+<?php
+$data = [1,2,[31,32,33]];
+[$a,$b,$c] = $data;
+print_r($b);
+print_r($c);
+
+[$x,$y,[$z1,$z2,$z3]] = $data;
+print_r($z1);
+print_r($z2);
 ?>
