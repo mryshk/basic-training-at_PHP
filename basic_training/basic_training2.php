@@ -40,4 +40,11 @@ print_r($z2);
 <!-- 比較演算 -->
 <?php
 var_dump("3.14"==3.14000);
+var_dump('13xyz' == 13);
+?>
+<!-- 配列比較 -->
+<?php
+$data01 = [1,2,3];
+$data02 = [1,5];
+var_dump($data01 < $data02);
 ?>
