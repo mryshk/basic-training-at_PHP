@@ -57,3 +57,8 @@ $data22 =[1,2,'3'];
 var_dump($data21==$data22);
 var_dump($data21 === $data22);
 ?>
+<!-- 条件演算子 -->
+<?php
+$score = 75;
+print $score >= 70?'合格':'不合格'
+?>
