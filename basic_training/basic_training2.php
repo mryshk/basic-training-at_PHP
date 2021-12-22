@@ -62,3 +62,7 @@ var_dump($data21 === $data22);
 $score = 75;
 print $score >= 70?'合格':'不合格'
 ?>
+<?php
+$message = "";
+print $message ?:"空です";
+?>
