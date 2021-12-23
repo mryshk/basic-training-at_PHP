@@ -87,3 +87,9 @@ print true ? 1:(false ? "OK":"NG");
 $flag = ($x===1? 0:-1);
 print $flag;
 ?>
+<!-- 論理演算子 -->
+<?php
+$x=1;
+if($x!==2){print "実行されました。";}
+$x===2 or print "実行されました。";
+?>
