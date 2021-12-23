@@ -75,3 +75,10 @@ print $message ??'ノーコメント;'
 $drive = "";
 print isset($drive)?"OK":"NO";
 ?>
+<!-- 条件演算子は左から順に処理をする -->
+<?php
+print (true ? 1:false)?"OK":"NG";
+?>
+<?php
+print true ? 1:(false ? "OK":"NG");
+?>
