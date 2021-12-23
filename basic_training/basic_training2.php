@@ -82,3 +82,8 @@ print (true ? 1:false)?"OK":"NG";
 <?php
 print true ? 1:(false ? "OK":"NG");
 ?>
+<!-- 問題 -->
+<?php
+$flag = ($x===1? 0:-1);
+print $flag;
+?>
