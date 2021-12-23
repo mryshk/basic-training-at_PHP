@@ -70,3 +70,8 @@ print $message ?:"空です";
 // $message = 'こんにちは';
 print $message ??'ノーコメント;'
 ?>
+<!-- isset関数とは与えられた変数に値がセットされているかどうかを判定する -->
+<?php
+$drive = "";
+print isset($drive)?"OK":"NO";
+?>
