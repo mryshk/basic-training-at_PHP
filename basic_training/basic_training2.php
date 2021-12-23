@@ -63,6 +63,10 @@ $score = 75;
 print $score >= 70?'合格':'不合格'
 ?>
 <?php
-$message = "";
+$message = "k";
 print $message ?:"空です";
+?>
+<?php
+// $message = 'こんにちは';
+print $message ??'ノーコメント;'
 ?>
