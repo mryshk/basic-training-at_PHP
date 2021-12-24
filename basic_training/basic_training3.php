@@ -83,6 +83,7 @@ switch ($rank){
 }
 ?>
 <!-- switchのフォールスルー -->
+<!-- caseを列挙する。orのような意味。 -->
 <?php
 $drink = "ビール";
 switch ($drink){
@@ -95,4 +96,17 @@ switch ($drink){
   default :
    print "お酒？";
 }
+?>
+<!-- match式-->
+<!-- あるパターンの値を変数に入れ込むことができる。 -->
+<?php
+$rank = "OK";
+$result = match($rank){
+  'OK'=>'OKですね〜',
+  "NO"=> "NO",
+  "YES"=> "YES",
+  default => "???"
+};
+$tt = "。";
+print $result.$tt;
 ?>
