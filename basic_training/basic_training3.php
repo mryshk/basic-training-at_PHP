@@ -51,3 +51,33 @@ if ($flag){
   print "No";
 }
 ?>
+<!-- switch条件分岐 -->
+<!-- 等価演算子の条件分岐の際に最適 -->
+<?php
+$rank = 'NO';
+switch ($rank){
+  case 'OK':
+    print 'OK';
+    break;
+  case "NO":
+    print "NG";
+    break;
+  case "Yes":
+    print "YEs";
+    break;
+  default :
+    print "???";
+    break;
+}
+?><br>
+<?php
+$rank = "NO";
+switch ($rank){
+  case "NO":
+    print "NO";
+    break;
+  case "OK":
+    print "OK";
+    break;
+}
+?>
