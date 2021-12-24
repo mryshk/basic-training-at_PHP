@@ -70,6 +70,7 @@ switch ($rank){
     break;
 }
 ?><br>
+<!-- switch文には必ずbreakがいる。自動で止まる性能を持っていないから。 -->
 <?php
 $rank = "NO";
 switch ($rank){
@@ -79,5 +80,19 @@ switch ($rank){
   case "OK":
     print "OK";
     break;
+}
+?>
+<!-- switchのフォールスルー -->
+<?php
+$drink = "ビール";
+switch ($drink){
+  case "日本酒":
+  case "ビーす":
+  case "ビール":
+  case "お酒":
+    print "日本酒です。";
+    break;
+  default :
+   print "お酒？";
 }
 ?>
