@@ -149,3 +149,8 @@ for ($i=1; $i<4; $i++){
   print "{$i}番目のループです。<br/>";
 }
 ?>
+<?php
+for($i=1,$j=1; $result = $i*$j,$i<8;$i++,$j++){
+  print "{$i}×{$j}={$result}<br/>";
+}
+?>
