@@ -128,3 +128,18 @@ $result = match($onigiri){
 };
 print $result.$tt;
 ?>
+<!-- while -->
+<?php
+$i = 1;
+while ($i < 4){
+  print "{$i}番目のループです。<br/>";
+  $i++;
+}
+?>
+<?php
+$i =1;
+do {
+  print "{$i}番目のループです。<br/>";
+  $i++;
+}while ($i<4);
+?>
