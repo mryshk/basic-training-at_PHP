@@ -112,10 +112,11 @@ print $result.$tt;
 ?>
 <!-- match複数 -->
 <?php
-$drink = "ビール";
+$drink = "ワイン";
 $result = match($drink){
   "ビール","日本酒","お酒" => "ビールです",
   "ブランデー","ワイン" => "西洋酒です"
 };
 print $result.$tt;
 ?>
+<!--  -->
