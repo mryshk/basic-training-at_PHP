@@ -119,4 +119,12 @@ $result = match($drink){
 };
 print $result.$tt;
 ?>
-<!--  -->
+<!-- match関数2 -->
+<?php
+$onigiri = "かやく";
+$result = match($onigiri){
+  "しゃけ","こんぶ","おかか" => "OK",
+  "明太子","梅干し","かやく" => "NO"
+};
+print $result.$tt;
+?>
