@@ -173,3 +173,11 @@ foreach($data as $key => $value){
   print "{$key}は年齢{$value}歳です。<br/>";
 }
 ?>
+<!-- 通常配列でもkey&valueは使用可能 -->
+<!-- ただしkeyがインデック番号になる -->
+<?php
+$data =["田中","鈴木","佐藤","山田","相田"];
+foreach ($data as $key => $value){
+  print "{$value}は年齢{$key}歳です。<br/>";
+}
+?>
