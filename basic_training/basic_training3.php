@@ -166,3 +166,10 @@ foreach ($data as $value){
   print "{$value}になります。<br/>";
 }
 ?>
+<!-- foreach 連想配列Ver -->
+<?php
+$data =["田中"=>"24","山田"=>"97"," suzuki"=>"34"];
+foreach($data as $key => $value){
+  print "{$key}は年齢{$value}歳です。<br/>";
+}
+?>
