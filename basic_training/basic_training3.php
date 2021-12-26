@@ -156,6 +156,13 @@ for($i=1,$j=1; $result = $i*$j,$i<8;$i++,$j++){
 ?>
 <?php
 for ($i=2,$j=3;$result=$i+$j,$i<5;$i++){
-  print "{$i}番目になりまして、あと{$j}を足して{$result}。";
+  print "{$i}番目になりまして、あと{$j}を足して{$result}。<br/>";
+}
+?>
+<!-- foreach文 -->
+<?php
+$data = ["田中","鈴木","佐藤","山田","相田"];
+foreach ($data as $value){
+  print "{$value}になります。<br/>";
 }
 ?>
