@@ -181,3 +181,20 @@ foreach ($data as $key => $value){
   print "{$value}は年齢{$key}歳です。<br/>";
 }
 ?>
+<!-- foreachのforバージョン -->
+<?php
+$data = ["田中","鈴木","佐藤","山田","相田"];
+for ($i=0;$i<count($data);$i++){
+  print "{$data[$i]}になります。<br/>";
+}
+?>
+<!-- foreachの参照渡し -->
+<?php
+$data =["田中","鈴木","佐藤","山田","相田"];
+$value = [];
+foreach ($data as $i){
+  array_push($value,$i);
+}
+print_r($data);
+print_r($value);
+?>
