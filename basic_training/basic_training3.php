@@ -197,4 +197,6 @@ foreach ($data as $i){
 }
 print_r($data);
 print_r($value);
+array_shift($value);
+print_r($value);
 ?>
