@@ -20,3 +20,10 @@ print $data[4];
 $message = "lll";
 print $message?:"空です";
 ?>
+<!-- foreach分 -->
+<?php
+$data = ["田中","鈴木","佐藤","山田","相田"];
+foreach ($data as $value){
+  print "{$value}になります";
+}
+?>
