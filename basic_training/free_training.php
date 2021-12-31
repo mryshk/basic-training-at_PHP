@@ -27,3 +27,9 @@ foreach ($data as $value){
   print "{$value}になります";
 }
 ?>
+<?php
+$data = ["田中","鈴木","佐藤","山田","相田"];
+foreach ($data as $key => $value){
+  print "{$key}は{$value}になります。";
+}
+?>
