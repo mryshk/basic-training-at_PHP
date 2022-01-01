@@ -46,3 +46,10 @@ while ($s < 5) {
   print "{$s}になります";
 }
 ?>
+<?php
+$i = 3;
+do {
+  print "{$i}です。<br/>";
+  $i++;
+} while ($i < 6)
+?>
