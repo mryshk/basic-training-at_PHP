@@ -53,3 +53,15 @@ do {
   $i++;
 } while ($i < 6)
 ?>
+<!-- switch文 -->
+<?php
+$rank = "OK";
+switch ($rank) {
+  case "NO":
+    print "Noです。";
+    break;
+  case "OK":
+    print "OKです。";
+    break;
+}
+?>
