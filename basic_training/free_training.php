@@ -65,3 +65,13 @@ switch ($rank) {
     break;
 }
 ?>
+<!-- match -->
+<?php
+$rank = "OK";
+$result = match ($rank) {
+  "OK" => "いいね＝",
+  "NO" => "あかん",
+  "MM" => "MO"
+};
+print $result;
+?>
