@@ -75,3 +75,12 @@ $result = match ($rank) {
 };
 print $result;
 ?>
+<!-- match関数2 -->
+<?php
+$onigiri = "おかか";
+$result = match ($onigiri) {
+  "おかか", "さけ", "和風ツナ" => "すきだな〜",
+  "梅", "肉", "明太子" => "う〜ん。"
+};
+print "私は{$onigiri}の具は{$result}。";
+?>
