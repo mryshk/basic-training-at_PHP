@@ -40,6 +40,11 @@ for ($i = 0; $i < 4; $i++) {
 }
 ?>
 <?php
+for ($i = 0, $s = 2; $result = $i + $s, $s < 8; $s++) {
+  print "{$i}と{$s}を足すと{$result}になります";
+}
+?>
+<?php
 for ($i = 4; $i < 9; $i++) {
   print "{$i}になります。";
 }
